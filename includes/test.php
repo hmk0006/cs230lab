@@ -12,3 +12,7 @@
 </body>
 </html>
 
+
+git branch -M main
+git remote add origin https://github.com/hmk0006/cs230lab.git
+git push -u origin main
