@@ -17,15 +17,15 @@ p {
 }
 
 img {
-    height: 180 px;
-    width: 180px;
+    height: 160 px;
+    width: 160px;
 }
 
 .column {
     float: left;
     margin-right: 16px;
     margin: 10px;
-    width: 22%;
+    width: 20%;
 }
 
 .card {

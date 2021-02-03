@@ -14,7 +14,7 @@
     </div>
     <div class="row">
         <div class="column">
-            <dic class="card">
+            <div class="card">
                 <img src="images/1.jpg">
                 <div class="container">
                     <h2>CEO
@@ -23,10 +23,10 @@
                         </p>
                     </h2>
                 </div>
-            </dic>
+            </div>
         </div>
         <div class="column">
-            <dic class="card">
+            <div class="card">
                 <img src="images/2.jpg">
                 <div class="container">
                     <h2>CEO
@@ -35,10 +35,10 @@
                         </p>
                     </h2>
                 </div>
-            </dic>
+            </div>
         </div>
         <div class="column">
-            <dic class="card">
+            <div class="card">
                 <img src="images/3.jpg">
                 <div class="container">
                     <h2>CEO
@@ -47,10 +47,10 @@
                         </p>
                     </h2>
                 </div>
-            </dic>
+            </div>
         </div>
         <div class="column">
-            <dic class="card">
+            <div class="card">
                 <img src="images/4.jpg">
                 <div class="container">
                     <h2>CEO
@@ -59,7 +59,7 @@
                         </p>
                     </h2>
                 </div>
-            </dic>
+            </div>
         </div>
    
     </div>
