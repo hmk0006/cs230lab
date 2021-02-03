@@ -4,11 +4,11 @@ body {
 }
 
 p {
-    color: rgb(103, 184, 71);
+    color: rgb(0, 0, 0);
 }
 
 .about {
-    background: royalblue;
+    background: rgb(42, 187, 23);
     padding: 8px;
 }
 
@@ -17,8 +17,8 @@ p {
 }
 
 img {
-    height: 120 px;
-    width: 120px;
+    height: 180 px;
+    width: 180px;
 }
 
 .column {
