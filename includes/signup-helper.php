@@ -20,6 +20,7 @@ if(isset($_POST['signup-submit'])){
         exit();
     }
 
+    
     else{
         $sql = "SELECT uname FROM users WHERE uname=?";
         $stmt = mysqli_stmt_init($conn);

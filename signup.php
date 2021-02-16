@@ -16,6 +16,7 @@ require "includes/header.php"
                         <div class="form-group">
                             <div class="row">
                                 <div class="col">
+                                
 
                                     <input type="text" name= "" class="form-control" name= "fname" placeholder="First Name" required autofocus>
                                 </div>
