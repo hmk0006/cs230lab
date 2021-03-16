@@ -1,60 +1,21 @@
-<main>
-    <link rel="stylesheet" href="css/about.css">
-    
-    <div class = "about">
-        <h1>About Us
-            <p>asdfghjkl</p>
-        </h1>
+<h5 style="text-align: center;">No reviews yet</h5>
+
+
+
+<div class="card mx-auto" style="width: 30%; padding: 5px; margin-bottom: 10px;">
+    <div class="media">
+        <img class="mr-3" src="'.$profpic.'" style="max-width: 75px; max-height: 75px; border-radius: 50%;">
+        <div class="media-body">
+            <h5 class="mt-0">$row['uname']</h5>
+            <p>'.$row['revdate'].'</p>
+            <p>'.$row['reviewtext'].'</p>
+            Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+        </div>
     </div>
-    <div class="row">
-        <div class="column">
-            <dic class="card">
-                <img src="images/1.jpg">
-                <div class="container">
-                    <h2>CEO
-                        <p>NAME1 HERE
-                            <p>EMAIL1 HERE</p>
-                        </p>
-                    </h2>
-                </div>
-            </dic>
-        </div>
-        <div class="column">
-            <dic class="card">
-                <img src="images/2.jpg">
-                <div class="container">
-                    <h2>CEO
-                        <p>NAME1 HERE
-                            <p>EMAIL1 HERE</p>
-                        </p>
-                    </h2>
-                </div>
-            </dic>
-        </div>
-        <div class="column">
-            <dic class="card">
-                <img src="images/3.jpg">
-                <div class="container">
-                    <h2>CEO
-                        <p>NAME1 HERE
-                            <p>EMAIL1 HERE</p>
-                        </p>
-                    </h2>
-                </div>
-            </dic>
-        </div>
-        <div class="column">
-            <dic class="card">
-                <img src="images/4.jpg">
-                <div class="container">
-                    <h2>CEO
-                        <p>NAME1 HERE
-                            <p>EMAIL1 HERE</p>
-                        </p>
-                    </h2>
-                </div>
-            </dic>
-        </div>
-   
-    </div>
-</main>
+</div>
+
+<div class="container" style="text-align: center;">
+    <h1>'.$avg.'</h1>
+    <div class="container" style="margin-bottom: 10px;">'.stars[$avg].'</div>
+    <p>Number of ratings: '.round($row2['Total'],1).'</p>
+</div>
