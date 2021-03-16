@@ -21,7 +21,7 @@ if(mysqli_num_rows($result)>0){
         $uname = $row['uname'];
         $propic = "SELECT profpic FROM profiles WHERE uname='$uname';";
         $res = mysqli_query($conn, $propic);
-        $picpath = mysqli_fetch_assoc($res);
+        $picpath = mysqli_fetch_assoc($res)['picpath'];
 
         echo'<div class="card mx-auto" style="width: 30%; padding: 5px; margin-bottom: 10px;">
         <div class="media">

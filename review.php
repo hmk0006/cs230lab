@@ -9,7 +9,7 @@ require 'includes/review-helper.php';
     <div class="container" align="center" style="max-width: 800px;">
 
         <div class="my-auto">
-            <form id="review" action="includes/review-helper.php" method="post">
+            <form id="review-form" action="includes/review-helper.php" method="post">
                 <div class="container">
                     <i class="fa fa-star fa-2x star-rev" data-index="1"></i>
                     <i class="fa fa-star fa-2x star-rev" data-index="2"></i>
@@ -17,6 +17,12 @@ require 'includes/review-helper.php';
                     <i class="fa fa-star fa-2x star-rev" data-index="4"></i>
                     <i class="fa fa-star fa-2x star-rev" data-index="5"></i>
                 </div>
+
+
+
+
+
+
                 <div class="form-group" stle="margin-top: 15px;">
                     <label class="title-label" for="review-title"
                         style="font-size: 16px; font-weight: bold;">Title</label>
@@ -30,7 +36,7 @@ require 'includes/review-helper.php';
 
                 <div class="form-group">
                     <button class="btn btn-outline-danger" type="submit" name="review-submit" id="review-submit"
-                        style="width: 100%;">Review</button>
+                        style="width: 100%">Review</button>
 
                 </div>
 
